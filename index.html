@@ -1,0 +1,1837 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Security & Privacy Hardening Headers -->
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <title>Dr. Jagriti Bhagat | Modern Matrimonial Biodata</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Lora (Elegant Calligraphic Serif), DM Sans (Seamless Readable Sans) & EB Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=EB+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Lora:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['"Lora"', 'Georgia', 'serif'],
+                        serif: ['"EB Garamond"', 'Georgia', 'serif'],
+                        sans: ['"DM Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #FAF9F6;
+            color: #1E293B;
+            overflow-x: hidden;
+            font-optical-sizing: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+            letter-spacing: -0.005em;
+        }
+
+        /* Seamless Editorial Heading & Body Refinements */
+        h1, h2, h3, h4, .font-display {
+            font-optical-sizing: auto;
+            letter-spacing: -0.015em;
+            line-height: 1.28;
+        }
+
+        p, li {
+            line-height: 1.65;
+        }
+
+        /* Distinct, Separated Ambient Color Splashes (Not Muddy Together) */
+        .splash-pink {
+            background: radial-gradient(circle, rgba(251, 207, 232, 0.65) 0%, rgba(252, 231, 243, 0.25) 45%, transparent 70%);
+        }
+        .splash-blue {
+            background: radial-gradient(circle, rgba(186, 230, 253, 0.65) 0%, rgba(224, 242, 254, 0.25) 45%, transparent 70%);
+        }
+        .splash-sunflower {
+            background: radial-gradient(circle, rgba(254, 240, 138, 0.65) 0%, rgba(254, 249, 195, 0.25) 45%, transparent 70%);
+        }
+
+        /* Live Multi-Ring Mandala Counter-Rotations */
+        @keyframes rotateCW {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        @keyframes rotateCCW {
+            from { transform: rotate(360deg); }
+            to { transform: rotate(0deg); }
+        }
+        @keyframes gentlePulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+        }
+
+        .mandala-ring-outer {
+            animation: rotateCW 90s linear infinite;
+            transform-origin: 250px 250px;
+        }
+        .mandala-ring-mid {
+            animation: rotateCCW 65s linear infinite;
+            transform-origin: 250px 250px;
+        }
+        .mandala-ring-inner {
+            animation: rotateCW 45s linear infinite;
+            transform-origin: 250px 250px;
+        }
+        .mandala-breathe {
+            animation: gentlePulse 10s ease-in-out infinite;
+        }
+
+        /* Clean Glass Surfaces */
+        .surface-card {
+            background: rgba(255, 255, 255, 0.88);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.95);
+            box-shadow: 0 12px 36px -12px rgba(15, 23, 42, 0.06);
+        }
+
+        .card-pink-splash {
+            background: linear-gradient(160deg, #FFFFFF 0%, #FFF5F8 100%);
+            border: 1px solid #FBCFE8;
+        }
+        .card-blue-splash {
+            background: linear-gradient(160deg, #FFFFFF 0%, #F0F9FF 100%);
+            border: 1px solid #BAE6FD;
+        }
+        .card-sunflower-splash {
+            background: linear-gradient(160deg, #FFFFFF 0%, #FEFCE8 100%);
+            border: 1px solid #FEF08A;
+        }
+
+        .hover-lift {
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 18px 35px -10px rgba(15, 23, 42, 0.08);
+        }
+
+        /* =====================================================================
+           SIDEWAYS POP-OUT ANIMATED CREATIVES (SECTION & CARD HOVER SYSTEM)
+           ===================================================================== */
+        .pop-stage {
+            position: relative;
+        }
+
+        /* Section-level Left & Right Sideways Pop Creatives */
+        .side-pop-left,
+        .side-pop-right {
+            position: absolute;
+            top: 50%;
+            z-index: 30;
+            pointer-events: none;
+            opacity: 0;
+            transition: transform 0.55s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.35s ease;
+            filter: drop-shadow(0 12px 20px rgba(15, 23, 42, 0.12));
+        }
+
+        .side-pop-left {
+            left: 0;
+            transform: translate(12px, -50%) scale(0.45) rotate(-22deg);
+        }
+
+        .side-pop-right {
+            right: 0;
+            transform: translate(-12px, -50%) scale(0.45) rotate(22deg);
+        }
+
+        .pop-stage:hover > .side-pop-left {
+            opacity: 1;
+            transform: translate(-42px, -50%) scale(1) rotate(-10deg);
+        }
+
+        .pop-stage:hover > .side-pop-right {
+            opacity: 1;
+            transform: translate(42px, -50%) scale(1) rotate(10deg);
+        }
+
+        /* Card-level Sideways Pop Creatives */
+        .card-pop-host {
+            position: relative;
+        }
+
+        .card-pop-left,
+        .card-pop-right {
+            position: absolute;
+            top: -12px;
+            z-index: 25;
+            pointer-events: none;
+            opacity: 0;
+            transition: transform 0.48s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
+            filter: drop-shadow(0 8px 14px rgba(15, 23, 42, 0.12));
+        }
+
+        .card-pop-left {
+            left: -8px;
+            transform: translateX(18px) scale(0.4) rotate(-25deg);
+        }
+
+        .card-pop-right {
+            right: -8px;
+            transform: translateX(-18px) scale(0.4) rotate(25deg);
+        }
+
+        .card-pop-host:hover .card-pop-left {
+            opacity: 1;
+            transform: translateX(-16px) translateY(-6px) scale(1) rotate(-12deg);
+        }
+
+        .card-pop-host:hover .card-pop-right {
+            opacity: 1;
+            transform: translateX(16px) translateY(-6px) scale(1) rotate(12deg);
+        }
+
+        @media (max-width: 1024px) {
+            .pop-stage:hover > .side-pop-left {
+                transform: translate(-14px, -50%) scale(0.88) rotate(-8deg);
+            }
+            .pop-stage:hover > .side-pop-right {
+                transform: translate(14px, -50%) scale(0.88) rotate(8deg);
+            }
+        }
+
+        @media print {
+            .no-print, .side-pop-left, .side-pop-right, .card-pop-left, .card-pop-right { display: none !important; }
+            body { background: #FFFFFF !important; }
+            .surface-card, .card-pink-splash, .card-blue-splash, .card-sunflower-splash {
+                box-shadow: none !important;
+                border: 1px solid #CBD5E1 !important;
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-rose-200 selection:text-slate-900 min-h-screen relative">
+
+    <!-- SEPARATED AMBIENT COLOR SPLASHES IN BACKGROUND -->
+    <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden no-print">
+        <!-- Top-Left Soft Pink Splash -->
+        <div class="absolute -top-32 -left-24 w-[650px] h-[650px] rounded-full splash-pink"></div>
+        <!-- Top-Right Sunflower Yellow Splash -->
+        <div class="absolute top-20 -right-32 w-[550px] h-[550px] rounded-full splash-sunflower"></div>
+        <!-- Middle-Left Sky Blue Splash -->
+        <div class="absolute top-[38%] -left-36 w-[680px] h-[680px] rounded-full splash-blue"></div>
+        <!-- Middle-Right Soft Pink Splash -->
+        <div class="absolute top-[62%] -right-28 w-[620px] h-[620px] rounded-full splash-pink"></div>
+        <!-- Bottom Sunflower & Sky Splashes -->
+        <div class="absolute -bottom-32 left-1/4 w-[600px] h-[600px] rounded-full splash-sunflower"></div>
+        <div class="absolute -bottom-24 right-10 w-[550px] h-[550px] rounded-full splash-blue"></div>
+    </div>
+
+    <!-- INTRICATE CURVED LIVE MANDALA WATERMARKS -->
+    <div id="mandalaTopRight" class="fixed -top-44 -right-44 w-[560px] h-[560px] pointer-events-none z-0 opacity-40 no-print mandala-breathe"></div>
+    <div id="mandalaBottomLeft" class="fixed -bottom-44 -left-44 w-[580px] h-[580px] pointer-events-none z-0 opacity-35 no-print mandala-breathe"></div>
+
+    <!-- STICKY MODERN NAVIGATION BAR -->
+    <header class="sticky top-0 z-40 backdrop-blur-xl bg-white/85 border-b border-slate-200/80 shadow-sm no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 py-3.5 flex flex-wrap items-center justify-between gap-4">
+            <!-- Brand Identity -->
+            <a href="#top" class="flex items-center gap-3.5 group">
+                <div class="w-10 h-10 rounded-2xl bg-rose-100 border border-rose-300 flex items-center justify-center font-display font-bold text-base text-rose-700 shadow-sm group-hover:scale-105 transition-transform">
+                    JB
+                </div>
+                <div>
+                    <span class="block font-display text-slate-900 text-base sm:text-lg font-bold tracking-tight" id="navName">Dr. Jagriti Bhagat</span>
+                    <span class="block text-[11px] font-semibold uppercase tracking-widest text-sky-700">Gynaecologist (M.S. Resident) • M.B.B.S. • Sangit Visharad</span>
+                </div>
+            </a>
+
+            <!-- Section Links -->
+            <nav class="hidden lg:flex items-center gap-7 text-xs font-semibold uppercase tracking-wider text-slate-600">
+                <a href="#overview" class="hover:text-rose-600 transition-colors">Profile</a>
+                <a href="#education" class="hover:text-sky-600 transition-colors">Qualifications</a>
+                <a href="#arts" class="hover:text-amber-600 transition-colors">Music &amp; Arts</a>
+                <a href="#family" class="hover:text-rose-600 transition-colors">Family Lineage</a>
+                <a href="#contact" class="hover:text-sky-600 transition-colors">Contact</a>
+            </nav>
+
+            <!-- Quick Utility Buttons -->
+            <div class="flex items-center gap-2.5">
+                <button id="btnShareBioHeader" type="button" class="px-4 py-2 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-700 border border-sky-200 text-xs font-semibold flex items-center gap-1.5 transition-all" title="Copy Formatted Summary">
+                    <i class="ph-bold ph-share-network text-sm"></i>
+                    <span class="hidden sm:inline">Share Bio</span>
+                </button>
+
+                <button id="btnPrintHeader" type="button" class="px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs flex items-center gap-1.5 shadow-sm transition-all">
+                    <i class="ph-bold ph-printer text-sm"></i>
+                    <span>Print / PDF</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main id="top" class="relative z-10 max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 py-8 sm:py-12 space-y-10 sm:space-y-14">
+
+        <!-- AUSPICIOUS INVOCATION BADGE (Sunflower Yellow Splash Accent) -->
+        <div class="text-center">
+            <div class="inline-flex items-center gap-3 px-6 py-2 rounded-full bg-amber-50/90 border border-amber-300 shadow-sm">
+                <span class="text-amber-500 text-sm">❈</span>
+                <span class="font-serif italic text-base font-bold text-amber-900">॥ श्री गणेशाय नमः ॥</span>
+                <span class="text-amber-300">|</span>
+                <span class="uppercase tracking-widest text-[11px] text-slate-700 font-bold">Matrimonial Biodata</span>
+                <span class="text-amber-500 text-sm">❈</span>
+            </div>
+        </div>
+
+        <!-- 1. HERO & AUTOMATIC PHOTO CAROUSEL SECTION -->
+        <section id="overview" class="pop-stage surface-card rounded-3xl p-6 sm:p-10 lg:p-12 relative">
+            <!-- Section Sideways Pop-Out Creatives: Left Blooming Lotus, Right Gynaecology Heart Stethoscope -->
+            <div class="side-pop-left no-print">
+                <div class="w-16 h-16 rounded-2xl bg-white border-2 border-rose-200 shadow-lg flex flex-col items-center justify-center p-2">
+                    <svg viewBox="0 0 64 64" class="w-10 h-10">
+                        <path d="M32 10 C24 22, 20 34, 32 48 C44 34, 40 22, 32 10 Z" fill="#FB7185" stroke="#BE123C" stroke-width="2"/>
+                        <path d="M32 48 C18 42, 10 30, 14 18 C22 24, 26 34, 32 48 Z" fill="#FDA4AF" stroke="#BE123C" stroke-width="2"/>
+                        <path d="M32 48 C46 42, 54 30, 50 18 C42 24, 38 34, 32 48 Z" fill="#FDA4AF" stroke="#BE123C" stroke-width="2"/>
+                        <path d="M16 50 Q32 56 48 50" fill="none" stroke="#D97706" stroke-width="2.5" stroke-linecap="round"/>
+                    </svg>
+                    <span class="text-[9px] font-bold text-rose-700 uppercase tracking-tighter mt-0.5">Grace</span>
+                </div>
+            </div>
+            <div class="side-pop-right no-print">
+                <div class="w-16 h-16 rounded-2xl bg-white border-2 border-sky-200 shadow-lg flex flex-col items-center justify-center p-2">
+                    <svg viewBox="0 0 64 64" class="w-10 h-10">
+                        <path d="M32 52 C32 52 14 39 14 24 C14 16 21 12 27 16 C30 18 32 21 32 21 C32 21 34 18 37 16 C43 12 50 16 50 24 C50 39 32 52 32 52 Z" fill="#F43F5E" opacity="0.2" stroke="#E11D48" stroke-width="2.2"/>
+                        <circle cx="32" cy="31" r="7" fill="#0284C7"/>
+                        <path d="M32 27 V35 M28 31 H36" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+                    </svg>
+                    <span class="text-[9px] font-bold text-sky-700 uppercase tracking-tighter mt-0.5">OB-GYN</span>
+                </div>
+            </div>
+
+            <!-- Decorative Clipped Background Splashes -->
+            <div class="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none">
+                <div class="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-rose-100/70 blur-2xl"></div>
+                <div class="absolute -bottom-24 -right-24 w-72 h-72 rounded-full bg-sky-100/70 blur-2xl"></div>
+            </div>
+
+            <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
+                
+                <!-- LEFT 5 COLUMNS: AUTOMATIC SLIDING PORTRAIT CAROUSEL WITH LIVE CURVED MANDALA BACKDROP -->
+                <div class="lg:col-span-5 flex flex-col justify-center items-center">
+                    <div id="carouselHoverContainer" class="relative w-full max-w-[390px] my-auto">
+                        
+                        <!-- Intricate Live Mandala Halo Behind the Carousel -->
+                        <div id="heroMandalaHalo" class="absolute -inset-8 pointer-events-none opacity-65 flex items-center justify-center"></div>
+
+                        <!-- Carousel Frame -->
+                        <div class="relative z-10 rounded-3xl bg-white p-3.5 shadow-xl border border-rose-200/80 overflow-hidden">
+                            
+                            <!-- Automatic Progress Bar -->
+                            <div class="w-full h-1.5 bg-slate-100 rounded-full overflow-hidden mb-3">
+                                <div id="carouselProgressBar" class="h-full bg-rose-400 transition-all duration-100" style="width: 0%;"></div>
+                            </div>
+
+                            <!-- Slides Viewport -->
+                            <div id="carouselViewport" class="relative w-full aspect-[4/5] rounded-2xl overflow-hidden bg-slate-100">
+                                <!-- Slides injected safely via JS -->
+                            </div>
+
+                            <!-- Carousel Controls Bar -->
+                            <div class="mt-3.5 px-1 flex items-center justify-between gap-2">
+                                <div class="flex items-center gap-1.5" id="carouselDots">
+                                    <!-- Dots injected safely via JS -->
+                                </div>
+
+                                <div class="flex items-center gap-1.5">
+                                    <!-- Direct Local Photo Loader in case browser sandbox restricts relative paths -->
+                                    <label for="localPhotoInput" class="cursor-pointer px-3 h-8 rounded-full bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 flex items-center gap-1.5 text-[11px] font-bold transition-colors" title="Attach or refresh portrait photos from device">
+                                        <i class="ph-bold ph-images text-xs"></i>
+                                        <span>Photos</span>
+                                    </label>
+                                    <input id="localPhotoInput" type="file" accept="image/jpeg,image/png,image/webp" multiple class="hidden" />
+
+                                    <button id="carouselPlayBtn" type="button" class="w-8 h-8 rounded-full bg-amber-50 hover:bg-amber-100 text-amber-700 border border-amber-200 flex items-center justify-center transition-colors" title="Pause / Resume Auto-Slide">
+                                        <i class="ph-fill ph-pause text-xs" id="carouselPlayIcon"></i>
+                                    </button>
+                                    <button id="carouselPrevBtn" type="button" class="w-8 h-8 rounded-full bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 flex items-center justify-center transition-colors" title="Previous Photo">
+                                        <i class="ph-bold ph-caret-left text-xs"></i>
+                                    </button>
+                                    <button id="carouselNextBtn" type="button" class="w-8 h-8 rounded-full bg-sky-50 hover:bg-sky-100 text-sky-700 border border-sky-200 flex items-center justify-center transition-colors" title="Next Photo">
+                                        <i class="ph-bold ph-caret-right text-xs"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT 7 COLUMNS: STREAMLINED EXECUTIVE BIO & VITAL PARTICULARS -->
+                <div class="lg:col-span-7 flex flex-col justify-between space-y-6">
+                    <div class="space-y-4">
+                        <!-- Distinct Specialization & Heritage Badges -->
+                        <div class="flex flex-wrap items-center gap-2.5">
+                            <span class="px-3.5 py-1.5 rounded-full text-xs font-bold bg-rose-100 text-rose-800 border border-rose-200 flex items-center gap-1.5">
+                                <i class="ph-fill ph-stethoscope"></i> Gynaecologist (M.S. OB-GYN Resident)
+                            </span>
+                            <span class="px-3.5 py-1.5 rounded-full text-xs font-bold bg-amber-100 text-amber-900 border border-amber-300 flex items-center gap-1.5">
+                                <i class="ph-fill ph-music-notes"></i> Sangit Visharad
+                            </span>
+                        </div>
+
+                        <!-- Name & Concise Introduction -->
+                        <div>
+                            <h1 class="font-display text-3xl sm:text-5xl font-bold text-slate-900 tracking-tight leading-tight" id="heroName">
+                                Dr. Jagriti Bhagat
+                            </h1>
+                            <p class="mt-3.5 text-slate-600 text-sm sm:text-base leading-relaxed">
+                                A dedicated <strong class="text-slate-800">Gynaecologist &amp; Obstetrician</strong> pursuing her <strong class="text-slate-800">M.S.</strong> at JNMC, Wardha. Grounded in Sanatan cultural values, she blends clinical compassion with over a decade of classical training as a <strong class="text-slate-800">Sangit Visharad</strong>, published newspaper writing, and fine arts.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Personal Particulars Grid with Evenly Spaced Cards & Uniform Heights -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 auto-rows-fr pt-2">
+                        <!-- DOB -->
+                        <div class="card-pop-host card-pink-splash rounded-2xl p-4 hover-lift h-full flex flex-col justify-between">
+                            <div class="card-pop-right">
+                                <div class="w-9 h-9 rounded-xl bg-white border border-rose-300 shadow-md flex items-center justify-center text-rose-600">
+                                    <i class="ph-fill ph-sparkle text-lg"></i>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 text-rose-600 text-xs font-bold uppercase tracking-wider">
+                                <i class="ph-fill ph-calendar-heart text-base shrink-0"></i>
+                                <span>Date of Birth</span>
+                            </div>
+                            <div class="mt-3">
+                                <p class="font-display font-bold text-slate-900 text-base">11 Feb 1999</p>
+                                <p class="text-xs text-slate-500 mt-0.5">Aquarius (Kumbha)</p>
+                            </div>
+                        </div>
+
+                        <!-- Place of Birth -->
+                        <div class="card-pop-host card-blue-splash rounded-2xl p-4 hover-lift h-full flex flex-col justify-between">
+                            <div class="card-pop-right">
+                                <div class="w-9 h-9 rounded-xl bg-white border border-sky-300 shadow-md flex items-center justify-center text-sky-600">
+                                    <i class="ph-fill ph-compass text-lg"></i>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 text-sky-700 text-xs font-bold uppercase tracking-wider">
+                                <i class="ph-fill ph-map-pin text-base shrink-0"></i>
+                                <span>Birthplace</span>
+                            </div>
+                            <div class="mt-3">
+                                <p class="font-display font-bold text-slate-900 text-base">Nagpur</p>
+                                <p class="text-xs text-slate-500 mt-0.5">Maharashtra</p>
+                            </div>
+                        </div>
+
+                        <!-- Religion & Caste -->
+                        <div class="card-pop-host card-sunflower-splash rounded-2xl p-4 hover-lift h-full flex flex-col justify-between">
+                            <div class="card-pop-right">
+                                <div class="w-9 h-9 rounded-xl bg-white border border-amber-300 shadow-md flex items-center justify-center text-amber-600">
+                                    <i class="ph-fill ph-flame text-lg"></i>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 text-amber-700 text-xs font-bold uppercase tracking-wider">
+                                <i class="ph-fill ph-hands-praying text-base shrink-0"></i>
+                                <span>Heritage</span>
+                            </div>
+                            <div class="mt-3">
+                                <p class="font-display font-bold text-slate-900 text-base">Kalwar (Jaiswal)</p>
+                                <p class="text-xs text-slate-500 mt-0.5">Religion: Sanatan</p>
+                            </div>
+                        </div>
+
+                        <!-- Height & Complexion -->
+                        <div class="card-pop-host card-pink-splash rounded-2xl p-4 hover-lift h-full flex flex-col justify-between">
+                            <div class="card-pop-right">
+                                <div class="w-9 h-9 rounded-xl bg-white border border-rose-300 shadow-md flex items-center justify-center text-rose-600">
+                                    <i class="ph-fill ph-crown text-lg"></i>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 text-rose-600 text-xs font-bold uppercase tracking-wider">
+                                <i class="ph-fill ph-user-focus text-base shrink-0"></i>
+                                <span>Stature &amp; Tone</span>
+                            </div>
+                            <div class="mt-3">
+                                <p class="font-display font-bold text-slate-900 text-base">5 ft 3 inches</p>
+                                <p class="text-xs text-slate-500 mt-0.5">Complexion: Fair</p>
+                            </div>
+                        </div>
+
+                        <!-- Dietary Preference -->
+                        <div class="card-pop-host card-sunflower-splash rounded-2xl p-4 hover-lift h-full flex flex-col justify-between">
+                            <div class="card-pop-right">
+                                <div class="w-9 h-9 rounded-xl bg-white border border-emerald-300 shadow-md flex items-center justify-center text-emerald-600">
+                                    <i class="ph-fill ph-plant text-lg"></i>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 text-amber-700 text-xs font-bold uppercase tracking-wider">
+                                <i class="ph-fill ph-leaf text-base shrink-0"></i>
+                                <span>Food Habits</span>
+                            </div>
+                            <div class="mt-3">
+                                <p class="font-display font-bold text-slate-900 text-base">Pure Vegetarian</p>
+                                <p class="text-xs text-slate-500 mt-0.5">Sattvic Diet</p>
+                            </div>
+                        </div>
+
+                        <!-- Languages Known -->
+                        <div class="card-pop-host card-blue-splash rounded-2xl p-4 hover-lift h-full flex flex-col justify-between">
+                            <div class="card-pop-right">
+                                <div class="w-9 h-9 rounded-xl bg-white border border-sky-300 shadow-md flex items-center justify-center text-sky-600">
+                                    <i class="ph-fill ph-chat-circle-text text-lg"></i>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 text-sky-700 text-xs font-bold uppercase tracking-wider">
+                                <i class="ph-fill ph-translate text-base shrink-0"></i>
+                                <span>Languages</span>
+                            </div>
+                            <div class="mt-3">
+                                <p class="font-display font-bold text-slate-900 text-base">English, Hindi, Bengali</p>
+                                <p class="text-xs text-slate-500 mt-0.5">Understands Marathi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ACADEMIC & MEDICAL PEDIGREE (STETHOSCOPE & SCALPEL POP SIDEWAYS ON HOVER) -->
+        <section id="education" class="pop-stage surface-card rounded-3xl p-6 sm:p-10 lg:p-12 relative">
+            
+            <!-- LEFT SIDEWAYS POP: DETAILED CLINICAL STETHOSCOPE -->
+            <div class="side-pop-left no-print">
+                <div class="w-20 h-20 rounded-2xl bg-white border-2 border-sky-300 shadow-xl flex flex-col items-center justify-center p-2">
+                    <svg viewBox="0 0 64 64" class="w-12 h-12">
+                        <path d="M18 12 V26 C18 35 25 40 32 40 C39 40 46 35 46 26 V12" fill="none" stroke="#0284C7" stroke-width="3.5" stroke-linecap="round"/>
+                        <circle cx="18" cy="10" r="3" fill="#0369A1"/>
+                        <circle cx="46" cy="10" r="3" fill="#0369A1"/>
+                        <path d="M32 40 V48 C32 54 38 56 44 53 C48 51 50 47 50 43" fill="none" stroke="#E11D48" stroke-width="3.2" stroke-linecap="round"/>
+                        <circle cx="50" cy="39" r="6" fill="#FFE4E6" stroke="#E11D48" stroke-width="2.8"/>
+                        <circle cx="50" cy="39" r="2.2" fill="#E11D48"/>
+                    </svg>
+                    <span class="text-[9px] font-bold text-sky-800 uppercase tracking-tighter">Stethoscope</span>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDEWAYS POP: PRECISION SURGICAL SCALPEL -->
+            <div class="side-pop-right no-print">
+                <div class="w-20 h-20 rounded-2xl bg-white border-2 border-rose-300 shadow-xl flex flex-col items-center justify-center p-2">
+                    <svg viewBox="0 0 64 64" class="w-12 h-12">
+                        <!-- Scalpel Handle -->
+                        <path d="M30 28 L52 50 C54 52 51 55 49 53 L27 31 Z" fill="#0284C7" stroke="#0369A1" stroke-width="2"/>
+                        <line x1="35" y1="35" x2="46" y2="46" stroke="#BAE6FD" stroke-width="1.8" stroke-linecap="round"/>
+                        <!-- Surgical Blade -->
+                        <path d="M27 31 L11 15 C10 14 14 10 21 15 L30 28 Z" fill="#E2E8F0" stroke="#475569" stroke-width="2"/>
+                        <path d="M12 15 Q18 22 27 30" fill="none" stroke="#F43F5E" stroke-width="1.5"/>
+                    </svg>
+                    <span class="text-[9px] font-bold text-rose-700 uppercase tracking-tighter">Scalpel</span>
+                </div>
+            </div>
+
+            <div class="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none">
+                <div class="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-sky-100/80 blur-2xl"></div>
+            </div>
+
+            <div class="relative z-10">
+                <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-sky-100 pb-6">
+                    <div>
+                        <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-sky-100 text-sky-800 text-xs font-bold uppercase tracking-wider">
+                            <i class="ph-fill ph-student"></i> Medical Qualifications &amp; Education
+                        </span>
+                        <h2 class="mt-2.5 font-display text-2xl sm:text-3xl font-bold text-slate-900">
+                            Clinical Specialization &amp; Academic Journey
+                        </h2>
+                    </div>
+                </div>
+
+                <!-- 4-Step Academic Progression Grid with Equalized Baselines & Uniform Heights -->
+                <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 auto-rows-fr">
+                    
+                    <!-- Milestone 1: MS in Obstetrics & Gynaecology -->
+                    <div class="card-pop-host card-blue-splash rounded-2xl p-6 relative hover-lift h-full flex flex-col justify-between">
+                        <!-- Left & Right Card Pop: Surgical Scalpel & Stethoscope -->
+                        <div class="card-pop-left">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-sky-300 shadow-md flex items-center justify-center" title="Stethoscope">
+                                <svg viewBox="0 0 32 32" class="w-6 h-6">
+                                    <path d="M9 6 V14 C9 18 12 21 16 21 C20 21 23 18 23 14 V6" fill="none" stroke="#0284C7" stroke-width="2.4" stroke-linecap="round"/>
+                                    <path d="M16 21 V26 C16 28 20 28 23 25" fill="none" stroke="#E11D48" stroke-width="2.2" stroke-linecap="round"/>
+                                    <circle cx="24" cy="23" r="3" fill="#E11D48"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="card-pop-right">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-rose-300 shadow-md flex items-center justify-center" title="Surgical Scalpel">
+                                <svg viewBox="0 0 32 32" class="w-6 h-6">
+                                    <path d="M15 14 L26 25 L23 27 L13 16 Z" fill="#0284C7"/>
+                                    <path d="M13 16 L5 8 C6 6 10 8 15 14 Z" fill="#64748B"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-5">
+                                <span class="px-3 py-1 rounded-full bg-sky-600 text-white text-[11px] font-bold uppercase tracking-wider">
+                                    Pursuing • Resident
+                                </span>
+                                <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center shrink-0">
+                                    <i class="ph-fill ph-hospital text-xl"></i>
+                                </div>
+                            </div>
+                            <h3 class="font-display font-bold text-lg text-slate-900">M.S. (Gynaecologist)</h3>
+                            <p class="mt-1 text-xs font-bold text-rose-700 uppercase tracking-wide">
+                                Obstetrics &amp; Gynaecology
+                            </p>
+                            <p class="mt-2.5 text-sm font-semibold text-sky-900 leading-snug" id="eduMs">
+                                JNMC Sawangi Meghe, Wardha
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-3.5 border-t border-sky-200/70 flex items-center justify-between text-xs font-semibold text-sky-700">
+                            <span>Master of Surgery</span>
+                            <i class="ph-bold ph-seal-check text-base"></i>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 2: MBBS -->
+                    <div class="card-pop-host card-pink-splash rounded-2xl p-6 relative hover-lift h-full flex flex-col justify-between">
+                        <div class="card-pop-left">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-rose-300 shadow-md flex items-center justify-center text-rose-600">
+                                <i class="ph-fill ph-stethoscope text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="card-pop-right">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-amber-300 shadow-md flex items-center justify-center text-amber-600">
+                                <i class="ph-fill ph-medal text-xl"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-5">
+                                <span class="px-3 py-1 rounded-full bg-rose-100 text-rose-800 border border-rose-200 text-[11px] font-bold uppercase tracking-wider">
+                                    Completed • Batch 2K17
+                                </span>
+                                <div class="w-10 h-10 rounded-xl bg-rose-100 text-rose-600 flex items-center justify-center shrink-0">
+                                    <i class="ph-fill ph-stethoscope text-xl"></i>
+                                </div>
+                            </div>
+                            <h3 class="font-display font-bold text-lg text-slate-900">M.B.B.S.</h3>
+                            <p class="mt-1 text-xs font-bold text-rose-600 uppercase tracking-wide">
+                                Medicine &amp; Surgery
+                            </p>
+                            <p class="mt-2.5 text-sm font-semibold text-rose-900 leading-snug" id="eduMbbs">
+                                NKP Salve Medical College, Nagpur
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-3.5 border-t border-rose-200/70 flex items-center justify-between text-xs font-semibold text-rose-700">
+                            <span>Medical Graduate</span>
+                            <i class="ph-bold ph-medal text-base"></i>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 3: XIIth -->
+                    <div class="card-pop-host card-sunflower-splash rounded-2xl p-6 relative hover-lift h-full flex flex-col justify-between">
+                        <div class="card-pop-left">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-amber-300 shadow-md flex items-center justify-center text-amber-700">
+                                <i class="ph-fill ph-flask text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="card-pop-right">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-sky-300 shadow-md flex items-center justify-center text-sky-700">
+                                <i class="ph-fill ph-atom text-xl"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-5">
+                                <span class="px-3 py-1 rounded-full bg-amber-100 text-amber-900 border border-amber-300 text-[11px] font-bold uppercase tracking-wider">
+                                    Class XII (HSC)
+                                </span>
+                                <div class="w-10 h-10 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center shrink-0">
+                                    <i class="ph-fill ph-books text-xl"></i>
+                                </div>
+                            </div>
+                            <h3 class="font-display font-bold text-lg text-slate-900">Higher Secondary</h3>
+                            <p class="mt-1 text-xs font-bold text-amber-700 uppercase tracking-wide">
+                                Senior Science Stream
+                            </p>
+                            <p class="mt-2.5 text-sm font-semibold text-amber-950 leading-snug" id="eduXii">
+                                Hislop College, Nagpur
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-3.5 border-t border-amber-200/80 flex items-center justify-between text-xs font-semibold text-amber-800">
+                            <span>XIIth Board</span>
+                            <i class="ph-bold ph-certificate text-base"></i>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 4: Xth -->
+                    <div class="card-pop-host card-blue-splash rounded-2xl p-6 relative hover-lift h-full flex flex-col justify-between">
+                        <div class="card-pop-left">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-sky-300 shadow-md flex items-center justify-center text-sky-700">
+                                <i class="ph-fill ph-book-open-text text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="card-pop-right">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-amber-300 shadow-md flex items-center justify-center text-amber-600">
+                                <i class="ph-fill ph-trophy text-xl"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-5">
+                                <span class="px-3 py-1 rounded-full bg-sky-100 text-sky-800 border border-sky-200 text-[11px] font-bold uppercase tracking-wider">
+                                    Class X (Secondary)
+                                </span>
+                                <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center shrink-0">
+                                    <i class="ph-fill ph-graduation-cap text-xl"></i>
+                                </div>
+                            </div>
+                            <h3 class="font-display font-bold text-lg text-slate-900">Secondary School</h3>
+                            <p class="mt-1 text-xs font-bold text-sky-700 uppercase tracking-wide">
+                                High School Foundation
+                            </p>
+                            <p class="mt-2.5 text-sm font-semibold text-sky-900 leading-snug" id="eduX">
+                                Centre Point School, Nagpur
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-3.5 border-t border-sky-200/70 flex items-center justify-between text-xs font-semibold text-sky-700">
+                            <span>Xth Board</span>
+                            <i class="ph-bold ph-star text-base"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. CLASSICAL MUSIC, ARTS & LITERATURE (SITAR & FOUNTAIN PEN POP SIDEWAYS ON HOVER) -->
+        <section id="arts" class="pop-stage surface-card rounded-3xl p-6 sm:p-10 lg:p-12 relative">
+            
+            <!-- LEFT SIDEWAYS POP: ORNATE CLASSICAL SITAR INSTRUMENT -->
+            <div class="side-pop-left no-print">
+                <div class="w-20 h-20 rounded-2xl bg-white border-2 border-amber-300 shadow-xl flex flex-col items-center justify-center p-2">
+                    <svg viewBox="0 0 64 64" class="w-12 h-12">
+                        <!-- Sitar Tumba (Resonator Gourd) & Neck -->
+                        <circle cx="22" cy="44" r="12" fill="#F59E0B" stroke="#92400E" stroke-width="2.2"/>
+                        <path d="M14 48 C18 40 26 40 30 48" fill="none" stroke="#FEF08A" stroke-width="1.8"/>
+                        <path d="M29 35 L50 10 L54 14 L33 39 Z" fill="#B45309" stroke="#78350F" stroke-width="2"/>
+                        <!-- Tuning Pegs -->
+                        <line x1="45" y1="12" x2="41" y2="9" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="49" y1="8" x2="45" y2="5" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="22" cy="44" r="3" fill="#78350F"/>
+                    </svg>
+                    <span class="text-[9px] font-bold text-amber-800 uppercase tracking-tighter">Sitar</span>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDEWAYS POP: CALLIGRAPHY FOUNTAIN PEN & INK SCROLL -->
+            <div class="side-pop-right no-print">
+                <div class="w-20 h-20 rounded-2xl bg-white border-2 border-rose-300 shadow-xl flex flex-col items-center justify-center p-2">
+                    <svg viewBox="0 0 64 64" class="w-12 h-12">
+                        <!-- Fountain Pen Nib & Barrel -->
+                        <path d="M14 50 L22 30 L34 42 L14 50 Z" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+                        <line x1="14" y1="50" x2="25" y2="39" stroke="#92400E" stroke-width="1.8"/>
+                        <circle cx="25" cy="39" r="2" fill="#92400E"/>
+                        <path d="M22 30 L44 10 C47 8 54 15 52 18 L34 42 Z" fill="#E11D48" stroke="#9F1239" stroke-width="2"/>
+                        <path d="M12 53 Q24 58 38 51" fill="none" stroke="#0284C7" stroke-width="2.2" stroke-linecap="round"/>
+                    </svg>
+                    <span class="text-[9px] font-bold text-rose-700 uppercase tracking-tighter">Poet's Pen</span>
+                </div>
+            </div>
+
+            <div class="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none">
+                <div class="absolute -top-24 -left-24 w-80 h-80 rounded-full bg-amber-100/75 blur-2xl"></div>
+                <div class="absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-rose-100/70 blur-2xl"></div>
+            </div>
+
+            <div class="relative z-10">
+                <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-amber-200/70 pb-6">
+                    <div>
+                        <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold uppercase tracking-wider">
+                            <i class="ph-fill ph-music-notes-plus"></i> Kala, Sahitya &amp; Pursuits
+                        </span>
+                        <h2 class="mt-2.5 font-display text-2xl sm:text-3xl font-bold text-slate-900">
+                            Classical Music, Literature &amp; Creative Arts
+                        </h2>
+                    </div>
+                </div>
+
+                <!-- Featured Visharad & Multi-Instrumentalist Banner -->
+                <div class="card-pop-host mt-8 card-sunflower-splash rounded-2xl p-6 sm:p-8 border border-amber-300/80 shadow-sm">
+                    <div class="card-pop-left">
+                        <div class="w-10 h-10 rounded-xl bg-white border border-amber-300 shadow-md flex items-center justify-center text-amber-700">
+                            <i class="ph-fill ph-music-notes text-xl"></i>
+                        </div>
+                    </div>
+                    <div class="card-pop-right">
+                        <div class="w-10 h-10 rounded-xl bg-white border border-rose-300 shadow-md flex items-center justify-center text-rose-600">
+                            <i class="ph-fill ph-guitar text-xl"></i>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
+                        <div class="lg:col-span-5 space-y-3">
+                            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-200/80 text-amber-950 text-xs font-bold">
+                                <i class="ph-fill ph-crown-simple"></i> Sangit Visharad • 10+ Years Classical Training
+                            </div>
+                            <h3 class="font-display text-xl sm:text-2xl font-bold text-slate-900">
+                                Indian Classical Vocal &amp; Instrumental Mastery
+                            </h3>
+                            <p class="text-sm text-slate-700 leading-relaxed">
+                                Trained for more than 10 years in Indian Classical Music with a <strong>Visharad</strong> degree, she is deeply skilled at playing five traditional and contemporary instruments:
+                            </p>
+                        </div>
+
+                        <!-- Static Showcase of 5 Musical Instruments with Even Proportions -->
+                        <div class="lg:col-span-7 grid grid-cols-2 sm:grid-cols-5 gap-3.5 auto-rows-fr">
+                            <div class="p-4 rounded-2xl bg-white border border-amber-200 shadow-sm h-full flex flex-col items-center justify-between text-center">
+                                <div class="w-11 h-11 rounded-full bg-amber-100 text-amber-800 flex items-center justify-center mb-2.5">
+                                    <i class="ph-fill ph-music-note text-xl"></i>
+                                </div>
+                                <div>
+                                    <span class="block font-display font-bold text-sm text-slate-900">Sitar</span>
+                                    <span class="block text-[11px] text-amber-700 mt-0.5">Classical Strings</span>
+                                </div>
+                            </div>
+
+                            <div class="p-4 rounded-2xl bg-white border border-rose-200 shadow-sm h-full flex flex-col items-center justify-between text-center">
+                                <div class="w-11 h-11 rounded-full bg-rose-100 text-rose-700 flex items-center justify-center mb-2.5">
+                                    <i class="ph-fill ph-waves text-xl"></i>
+                                </div>
+                                <div>
+                                    <span class="block font-display font-bold text-sm text-slate-900">Tanpura</span>
+                                    <span class="block text-[11px] text-rose-600 mt-0.5">Shruti Drone</span>
+                                </div>
+                            </div>
+
+                            <div class="p-4 rounded-2xl bg-white border border-sky-200 shadow-sm h-full flex flex-col items-center justify-between text-center">
+                                <div class="w-11 h-11 rounded-full bg-sky-100 text-sky-700 flex items-center justify-center mb-2.5">
+                                    <i class="ph-fill ph-piano-keys text-xl"></i>
+                                </div>
+                                <div>
+                                    <span class="block font-display font-bold text-sm text-slate-900">Harmonium</span>
+                                    <span class="block text-[11px] text-sky-700 mt-0.5">Classical Reed</span>
+                                </div>
+                            </div>
+
+                            <div class="p-4 rounded-2xl bg-white border border-amber-200 shadow-sm h-full flex flex-col items-center justify-between text-center">
+                                <div class="w-11 h-11 rounded-full bg-amber-100 text-amber-800 flex items-center justify-center mb-2.5">
+                                    <i class="ph-fill ph-sliders-horizontal text-xl"></i>
+                                </div>
+                                <div>
+                                    <span class="block font-display font-bold text-sm text-slate-900">Keyboard</span>
+                                    <span class="block text-[11px] text-amber-700 mt-0.5">Contemporary</span>
+                                </div>
+                            </div>
+
+                            <div class="col-span-2 sm:col-span-1 p-4 rounded-2xl bg-white border border-rose-200 shadow-sm h-full flex flex-col items-center justify-between text-center">
+                                <div class="w-11 h-11 rounded-full bg-rose-100 text-rose-700 flex items-center justify-center mb-2.5">
+                                    <i class="ph-fill ph-guitar text-xl"></i>
+                                </div>
+                                <div>
+                                    <span class="block font-display font-bold text-sm text-slate-900">Ukulele</span>
+                                    <span class="block text-[11px] text-rose-600 mt-0.5">Acoustic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 Pillars of Other Hobbies & Pursuits with Equalized Heights & Footers -->
+                <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 auto-rows-fr">
+                    <!-- Literary: Fountain Pen & Newspaper Scroll Pop -->
+                    <div class="card-pop-host card-pink-splash rounded-2xl p-6 hover-lift h-full flex flex-col justify-between">
+                        <div class="card-pop-left">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-rose-300 shadow-md flex items-center justify-center text-rose-600" title="Fountain Pen">
+                                <i class="ph-fill ph-pen-nib text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="card-pop-right">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-amber-300 shadow-md flex items-center justify-center text-amber-700" title="Published Articles">
+                                <i class="ph-fill ph-newspaper-clipping text-xl"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="w-12 h-12 rounded-2xl bg-rose-100 text-rose-700 flex items-center justify-center mb-4">
+                                <i class="ph-fill ph-feather text-2xl"></i>
+                            </div>
+                            <h4 class="font-display font-bold text-lg text-slate-900">Published Writer &amp; Poet</h4>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Writes poems and articles published in newspapers as an accomplished freelance writer.
+                            </p>
+                        </div>
+                        <div class="mt-5 pt-3 border-t border-rose-200/60 flex items-center justify-between text-xs font-semibold text-rose-700">
+                            <span>Literature &amp; Columns</span>
+                            <i class="ph-bold ph-article text-sm"></i>
+                        </div>
+                    </div>
+
+                    <!-- Fine Arts: Artist Palette & Mehendi Cone Pop -->
+                    <div class="card-pop-host card-blue-splash rounded-2xl p-6 hover-lift h-full flex flex-col justify-between">
+                        <div class="card-pop-left">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-sky-300 shadow-md flex items-center justify-center text-sky-700" title="Fine Sketching">
+                                <i class="ph-fill ph-palette text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="card-pop-right">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-amber-300 shadow-md flex items-center justify-center text-amber-700" title="Mehendi Art">
+                                <i class="ph-fill ph-flower-lotus text-xl"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="w-12 h-12 rounded-2xl bg-sky-100 text-sky-700 flex items-center justify-center mb-4">
+                                <i class="ph-fill ph-paint-brush-broad text-2xl"></i>
+                            </div>
+                            <h4 class="font-display font-bold text-lg text-slate-900">Sketching &amp; Mehendi Art</h4>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Skilled in fine portrait sketching and intricate professional Mehendi design artistry.
+                            </p>
+                        </div>
+                        <div class="mt-5 pt-3 border-t border-sky-200/60 flex items-center justify-between text-xs font-semibold text-sky-700">
+                            <span>Visual &amp; Traditional Arts</span>
+                            <i class="ph-bold ph-paint-Roller text-sm"></i>
+                        </div>
+                    </div>
+
+                    <!-- Culinary: Chef Hat & Baking Whisk Pop -->
+                    <div class="card-pop-host card-sunflower-splash rounded-2xl p-6 hover-lift h-full flex flex-col justify-between">
+                        <div class="card-pop-left">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-amber-300 shadow-md flex items-center justify-center text-amber-700" title="Culinary Arts">
+                                <i class="ph-fill ph-chef-hat text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="card-pop-right">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-rose-300 shadow-md flex items-center justify-center text-rose-600" title="Baking">
+                                <i class="ph-fill ph-cake text-xl"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-800 flex items-center justify-center mb-4">
+                                <i class="ph-fill ph-cooking-pot text-2xl"></i>
+                            </div>
+                            <h4 class="font-display font-bold text-lg text-slate-900">Cooking &amp; Baking</h4>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Enjoys culinary experimentation, wholesome vegetarian cooking, and artisanal baking.
+                            </p>
+                        </div>
+                        <div class="mt-5 pt-3 border-t border-amber-200/80 flex items-center justify-between text-xs font-semibold text-amber-800">
+                            <span>Gourmet &amp; Patisserie</span>
+                            <i class="ph-bold ph-cookie text-sm"></i>
+                        </div>
+                    </div>
+
+                    <!-- Athletics: Badminton & Swimming Pop -->
+                    <div class="card-pop-host card-blue-splash rounded-2xl p-6 hover-lift h-full flex flex-col justify-between">
+                        <div class="card-pop-left">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-sky-300 shadow-md flex items-center justify-center text-sky-700" title="Badminton">
+                                <i class="ph-fill ph-racquet text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="card-pop-right">
+                            <div class="w-10 h-10 rounded-xl bg-white border border-sky-300 shadow-md flex items-center justify-center text-sky-600" title="Swimming">
+                                <i class="ph-fill ph-swimming-pool text-xl"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="w-12 h-12 rounded-2xl bg-sky-100 text-sky-700 flex items-center justify-center mb-4">
+                                <i class="ph-fill ph-tennis-ball text-2xl"></i>
+                            </div>
+                            <h4 class="font-display font-bold text-lg text-slate-900">Sports &amp; Fitness</h4>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Actively plays Badminton and Carrom, and practices swimming regularly.
+                            </p>
+                        </div>
+                        <div class="mt-5 pt-3 border-t border-sky-200/60 flex items-center justify-between text-xs font-semibold text-sky-700">
+                            <span>Athletics &amp; Recreation</span>
+                            <i class="ph-bold ph-person-simple-swim text-sm"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. DISTINGUISHED FAMILY LINEAGE (HERITAGE TREE & KALASH POP SIDEWAYS ON HOVER) -->
+        <section id="family" class="pop-stage surface-card rounded-3xl p-6 sm:p-10 lg:p-12 relative">
+            
+            <!-- LEFT SIDEWAYS POP: FAMILY HERITAGE CREST -->
+            <div class="side-pop-left no-print">
+                <div class="w-20 h-20 rounded-2xl bg-white border-2 border-rose-300 shadow-xl flex flex-col items-center justify-center p-2">
+                    <svg viewBox="0 0 64 64" class="w-11 h-11">
+                        <circle cx="32" cy="24" r="14" fill="#FFE4E6" stroke="#E11D48" stroke-width="2.2"/>
+                        <path d="M32 52 V28 M32 36 L24 28 M32 34 L40 26" stroke="#9F1239" stroke-width="2.8" stroke-linecap="round"/>
+                        <path d="M22 52 H42" stroke="#D97706" stroke-width="2.5" stroke-linecap="round"/>
+                    </svg>
+                    <span class="text-[9px] font-bold text-rose-700 uppercase tracking-tighter">Lineage</span>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDEWAYS POP: AUSPICIOUS KALASH -->
+            <div class="side-pop-right no-print">
+                <div class="w-20 h-20 rounded-2xl bg-white border-2 border-amber-300 shadow-xl flex flex-col items-center justify-center p-2">
+                    <svg viewBox="0 0 64 64" class="w-11 h-11">
+                        <path d="M22 28 C16 34 18 48 32 50 C46 48 48 34 42 28 Z" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+                        <circle cx="32" cy="20" r="6" fill="#B45309"/>
+                        <path d="M32 22 C24 16 18 22 22 28 M32 22 C40 16 46 22 42 28" fill="#10B981" stroke="#047857" stroke-width="1.8"/>
+                    </svg>
+                    <span class="text-[9px] font-bold text-amber-800 uppercase tracking-tighter">Sanskar</span>
+                </div>
+            </div>
+
+            <div class="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none">
+                <div class="absolute -top-24 left-1/3 w-96 h-96 rounded-full bg-rose-100/60 blur-2xl"></div>
+            </div>
+
+            <div class="relative z-10">
+                <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200/80 pb-6">
+                    <div>
+                        <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-rose-100 text-rose-800 text-xs font-bold uppercase tracking-wider">
+                            <i class="ph-fill ph-users-three"></i> Distinguished Family Lineage
+                        </span>
+                        <h2 class="mt-2.5 font-display text-2xl sm:text-3xl font-bold text-slate-900">
+                            Paternal &amp; Maternal Heritage
+                        </h2>
+                    </div>
+
+                    <!-- Lineage Filter Tabs -->
+                    <div class="inline-flex p-1 rounded-xl bg-slate-100 border border-slate-200 self-start sm:self-auto no-print">
+                        <button id="tabFamAll" type="button" class="px-3.5 py-1.5 rounded-lg text-xs font-bold bg-white text-slate-900 shadow-sm transition-all">
+                            All Lineage
+                        </button>
+                        <button id="tabFamPaternal" type="button" class="px-3.5 py-1.5 rounded-lg text-xs font-bold text-slate-600 hover:text-slate-900 transition-all">
+                            Paternal Side
+                        </button>
+                        <button id="tabFamMaternal" type="button" class="px-3.5 py-1.5 rounded-lg text-xs font-bold text-slate-600 hover:text-slate-900 transition-all">
+                            Maternal (Nanihal)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Family Cards Grid: Stretched & Row-Aligned Across Paternal (3x2) and Maternal (3x1) -->
+                <div class="mt-8 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch">
+                    
+                    <!-- PATERNAL LINEAGE COLUMN (7 Cols) -->
+                    <div id="paternalColumn" class="lg:col-span-7 flex flex-col">
+                        <div class="flex items-center gap-2.5 mb-4">
+                            <span class="w-2.5 h-2.5 rounded-full bg-rose-500"></span>
+                            <h3 class="font-display font-bold text-lg text-slate-900">Immediate &amp; Paternal Family</h3>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 auto-rows-fr flex-1">
+                            <!-- Father -->
+                            <div class="card-pop-host card-pink-splash rounded-2xl p-5 hover-lift h-full flex flex-col justify-between">
+                                <div class="card-pop-right">
+                                    <div class="w-9 h-9 rounded-xl bg-white border border-rose-300 shadow-md flex items-center justify-center text-rose-600">
+                                        <i class="ph-fill ph-briefcase text-lg"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-rose-700 bg-rose-100 px-2.5 py-0.5 rounded-md">Father</span>
+                                    <h4 class="mt-3 font-display font-bold text-lg text-slate-900" id="famFatherName">Mr. J. K. Bhagat</h4>
+                                </div>
+                                <p class="mt-2 text-xs font-semibold text-slate-700" id="famFatherRole">Mechanical Engineer – Businessman</p>
+                            </div>
+
+                            <!-- Mother -->
+                            <div class="card-pop-host card-pink-splash rounded-2xl p-5 hover-lift h-full flex flex-col justify-between">
+                                <div class="card-pop-right">
+                                    <div class="w-9 h-9 rounded-xl bg-white border border-rose-300 shadow-md flex items-center justify-center text-rose-600">
+                                        <i class="ph-fill ph-chalkboard-teacher text-lg"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-rose-700 bg-rose-100 px-2.5 py-0.5 rounded-md">Mother</span>
+                                    <h4 class="mt-3 font-display font-bold text-lg text-slate-900" id="famMotherName">Mrs. Preeti Bhagat</h4>
+                                </div>
+                                <p class="mt-2 text-xs font-semibold text-slate-700" id="famMotherRole">Head of Department (English), Nagpur</p>
+                            </div>
+
+                            <!-- Paternal Grandfather -->
+                            <div class="card-pop-host card-sunflower-splash rounded-2xl p-5 hover-lift h-full flex flex-col justify-between">
+                                <div class="card-pop-right">
+                                    <div class="w-9 h-9 rounded-xl bg-white border border-amber-300 shadow-md flex items-center justify-center text-amber-700">
+                                        <i class="ph-fill ph-bank text-lg"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-amber-800 bg-amber-100 px-2.5 py-0.5 rounded-md">Grand Father</span>
+                                    <h4 class="mt-3 font-display font-bold text-lg text-slate-900">Shri Himanshu Bhagat</h4>
+                                </div>
+                                <p class="mt-2 text-xs font-medium text-slate-600">Retired Government Employee</p>
+                            </div>
+
+                            <!-- Paternal Grandmother -->
+                            <div class="card-pop-host card-sunflower-splash rounded-2xl p-5 hover-lift h-full flex flex-col justify-between">
+                                <div class="card-pop-right">
+                                    <div class="w-9 h-9 rounded-xl bg-white border border-amber-300 shadow-md flex items-center justify-center text-amber-700">
+                                        <i class="ph-fill ph-flower-lotus text-lg"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-amber-800 bg-amber-100 px-2.5 py-0.5 rounded-md">Grand Mother</span>
+                                    <h4 class="mt-3 font-display font-bold text-lg text-slate-900">Late Renuka Rani Bhagat</h4>
+                                </div>
+                                <p class="mt-2 text-xs font-medium text-slate-600">In Loving &amp; Sacred Memory</p>
+                            </div>
+
+                            <!-- Elder Brother: Yash Bhakat -->
+                            <div class="card-pop-host card-blue-splash rounded-2xl p-5 hover-lift h-full flex flex-col justify-between">
+                                <div class="card-pop-right">
+                                    <div class="w-9 h-9 rounded-xl bg-white border border-sky-300 shadow-md flex items-center justify-center text-sky-600">
+                                        <i class="ph-fill ph-lightning text-lg"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-sky-800 bg-sky-100 px-2.5 py-0.5 rounded-md">Elder Brother</span>
+                                    <h4 class="mt-3 font-display font-bold text-lg text-slate-900" id="famBrotherName">Mr. Yash Bhakat</h4>
+                                    <p class="mt-1.5 text-xs font-semibold text-sky-900" id="famBrotherEdu">B.Tech. (VIT – Mechanical); PGDBA (BITS Pilani)</p>
+                                </div>
+                                <p class="mt-1.5 text-xs text-slate-600" id="famBrotherRole">Presently at Ather Energy Ltd in After Sales – Pune</p>
+                            </div>
+
+                            <!-- Fufaji -->
+                            <div class="card-pop-host card-blue-splash rounded-2xl p-5 hover-lift h-full flex flex-col justify-between">
+                                <div class="card-pop-right">
+                                    <div class="w-9 h-9 rounded-xl bg-white border border-sky-300 shadow-md flex items-center justify-center text-sky-600">
+                                        <i class="ph-fill ph-scales text-lg"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-sky-800 bg-sky-100 px-2.5 py-0.5 rounded-md">Fufaji (Paternal Uncle)</span>
+                                    <h4 class="mt-3 font-display font-bold text-lg text-slate-900">Mr. Manoj Bhagat</h4>
+                                    <p class="mt-1.5 text-xs font-semibold text-sky-900">Practicing Chartered Accountant – Malda</p>
+                                </div>
+                                <p class="mt-1.5 text-xs text-slate-600">Brick Manufacturing Unit – Malda</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MATERNAL LINEAGE (NANIHAL) COLUMN (5 Cols) -->
+                    <div id="maternalColumn" class="lg:col-span-5 flex flex-col">
+                        <div class="flex items-center gap-2.5 mb-4">
+                            <span class="w-2.5 h-2.5 rounded-full bg-sky-500"></span>
+                            <h3 class="font-display font-bold text-lg text-slate-900">Maternal Lineage (Nanihal)</h3>
+                        </div>
+
+                        <div class="grid grid-cols-1 gap-5 auto-rows-fr flex-1">
+                            <!-- Nanaji -->
+                            <div class="card-pop-host card-sunflower-splash rounded-2xl p-5 hover-lift h-full flex flex-col justify-between">
+                                <div class="card-pop-right">
+                                    <div class="w-9 h-9 rounded-xl bg-white border border-amber-300 shadow-md flex items-center justify-center text-amber-700">
+                                        <i class="ph-fill ph-storefront text-lg"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-amber-800 bg-amber-100 px-2.5 py-0.5 rounded-md">Nanaji (Maternal Grandfather)</span>
+                                    <h4 class="mt-3 font-display font-bold text-lg text-slate-900">Late Suraj Narayan Jaiswal</h4>
+                                    <p class="mt-1.5 text-xs font-semibold text-amber-900">Ex Coca-Cola Distributor</p>
+                                </div>
+                                <p class="mt-1 text-xs text-slate-600">Owner, Vrindavan Sweets – Nagpur</p>
+                            </div>
+
+                            <!-- Elder Mama -->
+                            <div class="card-pop-host card-blue-splash rounded-2xl p-5 hover-lift h-full flex flex-col justify-between">
+                                <div class="card-pop-right">
+                                    <div class="w-9 h-9 rounded-xl bg-white border border-sky-300 shadow-md flex items-center justify-center text-sky-600">
+                                        <i class="ph-fill ph-globe-hemisphere-east text-lg"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-sky-800 bg-sky-100 px-2.5 py-0.5 rounded-md">Elder Mama (Maternal Uncle)</span>
+                                    <h4 class="mt-3 font-display font-bold text-lg text-slate-900">Mr. Devashish Jaiswal</h4>
+                                    <p class="mt-1.5 text-xs font-semibold text-sky-900">After Sales Director – Automobile MNC</p>
+                                </div>
+                                <p class="mt-1 text-xs text-slate-600">United Arab Emirates (UAE)</p>
+                            </div>
+
+                            <!-- Younger Mama -->
+                            <div class="card-pop-host card-pink-splash rounded-2xl p-5 hover-lift h-full flex flex-col justify-between">
+                                <div class="card-pop-right">
+                                    <div class="w-9 h-9 rounded-xl bg-white border border-rose-300 shadow-md flex items-center justify-center text-rose-600">
+                                        <i class="ph-fill ph-chart-line-up text-lg"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-rose-700 bg-rose-100 px-2.5 py-0.5 rounded-md">Younger Mama (Maternal Uncle)</span>
+                                    <h4 class="mt-3 font-display font-bold text-lg text-slate-900">Mr. Ashish Jaiswal</h4>
+                                    <p class="mt-1.5 text-xs font-semibold text-rose-900">Sales Strategy &amp; Analytics Head</p>
+                                </div>
+                                <p class="mt-1 text-xs text-slate-600">Mahindra &amp; Mahindra – Mumbai</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. RESIDENCE & FAMILY CONTACT FOOTER CARD -->
+        <section id="contact" class="pop-stage surface-card rounded-3xl p-6 sm:p-10 lg:p-12 relative">
+            <!-- Sideways Pop Creatives for Contact Section -->
+            <div class="side-pop-left no-print">
+                <div class="w-16 h-16 rounded-2xl bg-white border-2 border-amber-300 shadow-lg flex flex-col items-center justify-center p-2 text-amber-700">
+                    <i class="ph-fill ph-envelope-open text-2xl"></i>
+                    <span class="text-[9px] font-bold uppercase tracking-tighter mt-0.5">Invite</span>
+                </div>
+            </div>
+            <div class="side-pop-right no-print">
+                <div class="w-16 h-16 rounded-2xl bg-white border-2 border-rose-300 shadow-lg flex flex-col items-center justify-center p-2 text-rose-600">
+                    <i class="ph-fill ph-phone-call text-2xl"></i>
+                    <span class="text-[9px] font-bold uppercase tracking-tighter mt-0.5">Connect</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch">
+                <div class="lg:col-span-7 card-sunflower-splash rounded-2xl p-6 sm:p-8 flex flex-col justify-between space-y-5">
+                    <div class="space-y-2.5">
+                        <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold uppercase tracking-wider">
+                            <i class="ph-fill ph-house-line"></i> Family Residence &amp; Correspondence
+                        </span>
+                        <h2 class="font-display text-2xl sm:text-3xl font-bold text-slate-900">
+                            Connect with the Bhagat Family
+                        </h2>
+                        <p class="text-sm sm:text-base text-slate-700 flex items-center gap-2.5 pt-1">
+                            <i class="ph-fill ph-map-pin text-rose-600 text-xl shrink-0"></i>
+                            <strong class="text-slate-900" id="valAddress">155, Verma Layout, Nagpur, Maharashtra</strong>
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-3 pt-2 no-print">
+                        <button id="btnDownloadVCard" type="button" class="px-4 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold flex items-center gap-2 shadow-sm transition-all">
+                            <i class="ph-bold ph-address-book text-base"></i> Save Family Contact (.vcf)
+                        </button>
+                        <button id="btnShareBioFooter" type="button" class="px-4 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold flex items-center gap-2 shadow-sm transition-all">
+                            <i class="ph-bold ph-whatsapp-logo text-base"></i> Copy Biodata for WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Phone Numbers Box (Equal Height Cards Aligned with Left Column) -->
+                <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 gap-5 auto-rows-fr">
+                    <div class="card-pink-splash rounded-2xl p-6 h-full flex flex-col justify-between hover-lift">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center mb-4">
+                                <i class="ph-fill ph-phone-call text-xl"></i>
+                            </div>
+                            <span class="block text-[11px] font-bold uppercase tracking-wider text-rose-700">Mrs. Preeti Bhagat</span>
+                            <span class="block text-xs text-slate-500 mt-0.5">Mother • Nagpur</span>
+                            <p class="mt-3 font-display font-bold text-lg text-slate-900">+91 9422805546</p>
+                        </div>
+                        <button id="btnCopyMotherPhone" type="button" class="mt-5 w-full py-2.5 rounded-xl bg-white hover:bg-rose-50 text-rose-700 border border-rose-200 text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors no-print">
+                            <i class="ph-bold ph-copy"></i> Copy Number
+                        </button>
+                    </div>
+
+                    <div class="card-blue-splash rounded-2xl p-6 h-full flex flex-col justify-between hover-lift">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center mb-4">
+                                <i class="ph-fill ph-phone-call text-xl"></i>
+                            </div>
+                            <span class="block text-[11px] font-bold uppercase tracking-wider text-sky-700">Mr. J. K. Bhagat</span>
+                            <span class="block text-xs text-slate-500 mt-0.5">Father • Nagpur</span>
+                            <p class="mt-3 font-display font-bold text-lg text-slate-900">+91 8788310188</p>
+                        </div>
+                        <button id="btnCopyFatherPhone" type="button" class="mt-5 w-full py-2.5 rounded-xl bg-white hover:bg-sky-50 text-sky-700 border border-sky-200 text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors no-print">
+                            <i class="ph-bold ph-copy"></i> Copy Number
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="relative z-10 max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 py-8 text-center text-xs text-slate-500 border-t border-slate-200/70">
+        <p class="font-serif italic text-sm text-slate-700">Matrimonial Biodata • Dr. Jagriti Bhagat (M.B.B.S., M.S. Obstetrics &amp; Gynaecology Resident)</p>
+    </footer>
+
+    <!-- CUSTOM TOAST NOTIFICATION -->
+    <div id="toastBox" class="fixed bottom-5 right-5 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none no-print" role="status" aria-live="polite">
+        <div class="px-4 py-3 rounded-2xl bg-slate-900 text-white text-xs font-semibold shadow-xl flex items-center gap-2.5 border border-slate-700">
+            <i class="ph-fill ph-check-circle text-amber-400 text-base"></i>
+            <span id="toastText">Action completed</span>
+        </div>
+    </div>
+
+    <!-- ENCAPSULATED, SECURE JAVASCRIPT ENGINE (NO GLOBAL POLLUTION OR INLINE HANDLERS) -->
+    <script>
+        (function () {
+            'use strict';
+
+            /* =====================================================================
+               1. PROCEDURAL INTRICATE CURVED MANDALA SVG GENERATOR
+               ===================================================================== */
+            function createIntricateMandalaSVG(primaryStroke, secondaryStroke, accentStroke) {
+                const cx = 250, cy = 250;
+
+                function polar(r, deg) {
+                    const rad = (deg * Math.PI) / 180;
+                    return { x: cx + r * Math.cos(rad), y: cy + r * Math.sin(rad) };
+                }
+
+                let outerLayer = '';
+                for (let i = 0; i < 24; i++) {
+                    const a1 = i * 15;
+                    const aMid = a1 + 7.5;
+                    const a2 = a1 + 15;
+
+                    const pStart = polar(175, a1);
+                    const c1 = polar(218, a1 + 2.5);
+                    const pTip = polar(240, aMid);
+                    const c2 = polar(218, a2 - 2.5);
+                    const pEnd = polar(175, a2);
+
+                    outerLayer += `<path d="M ${pStart.x.toFixed(1)} ${pStart.y.toFixed(1)} C ${c1.x.toFixed(1)} ${c1.y.toFixed(1)}, ${pTip.x.toFixed(1)} ${pTip.y.toFixed(1)}, ${pTip.x.toFixed(1)} ${pTip.y.toFixed(1)} C ${pTip.x.toFixed(1)} ${pTip.y.toFixed(1)}, ${c2.x.toFixed(1)} ${c2.y.toFixed(1)}, ${pEnd.x.toFixed(1)} ${pEnd.y.toFixed(1)}" fill="none" stroke="${primaryStroke}" stroke-width="1.4" />`;
+
+                    const iStart = polar(182, a1 + 2);
+                    const iTip = polar(222, aMid);
+                    const iEnd = polar(182, a2 - 2);
+                    outerLayer += `<path d="M ${iStart.x.toFixed(1)} ${iStart.y.toFixed(1)} Q ${iTip.x.toFixed(1)} ${iTip.y.toFixed(1)} ${iEnd.x.toFixed(1)} ${iEnd.y.toFixed(1)}" fill="none" stroke="${secondaryStroke}" stroke-width="1.1" />`;
+
+                    const bead = polar(244, aMid);
+                    outerLayer += `<circle cx="${bead.x.toFixed(1)}" cy="${bead.y.toFixed(1)}" r="2" fill="${accentStroke}" />`;
+                }
+
+                let midLayer = '';
+                for (let i = 0; i < 16; i++) {
+                    const a1 = i * 22.5;
+                    const aMid = a1 + 11.25;
+                    const a2 = a1 + 22.5;
+
+                    const p1 = polar(115, a1);
+                    const ctrl1 = polar(168, a1 - 6);
+                    const pPeak = polar(172, aMid);
+                    const ctrl2 = polar(168, a2 + 6);
+                    const p2 = polar(115, a2);
+
+                    midLayer += `<path d="M ${p1.x.toFixed(1)} ${p1.y.toFixed(1)} C ${ctrl1.x.toFixed(1)} ${ctrl1.y.toFixed(1)}, ${pPeak.x.toFixed(1)} ${pPeak.y.toFixed(1)}, ${pPeak.x.toFixed(1)} ${pPeak.y.toFixed(1)} C ${pPeak.x.toFixed(1)} ${pPeak.y.toFixed(1)}, ${ctrl2.x.toFixed(1)} ${ctrl2.y.toFixed(1)}, ${p2.x.toFixed(1)} ${p2.y.toFixed(1)}" fill="none" stroke="${secondaryStroke}" stroke-width="1.5" />`;
+
+                    const dot = polar(148, aMid);
+                    midLayer += `<circle cx="${dot.x.toFixed(1)}" cy="${dot.y.toFixed(1)}" r="2.5" fill="${primaryStroke}" />`;
+                }
+
+                let innerLayer = '';
+                for (let i = 0; i < 12; i++) {
+                    const a1 = i * 30;
+                    const aMid = a1 + 15;
+                    const a2 = a1 + 30;
+
+                    const p1 = polar(42, a1);
+                    const c1 = polar(95, a1 + 5);
+                    const tip = polar(112, aMid);
+                    const c2 = polar(95, a2 - 5);
+                    const p2 = polar(42, a2);
+
+                    innerLayer += `<path d="M ${p1.x.toFixed(1)} ${p1.y.toFixed(1)} C ${c1.x.toFixed(1)} ${c1.y.toFixed(1)}, ${tip.x.toFixed(1)} ${tip.y.toFixed(1)}, ${tip.x.toFixed(1)} ${tip.y.toFixed(1)} C ${tip.x.toFixed(1)} ${tip.y.toFixed(1)}, ${c2.x.toFixed(1)} ${c2.y.toFixed(1)}, ${p2.x.toFixed(1)} ${p2.y.toFixed(1)}" fill="none" stroke="${accentStroke}" stroke-width="1.6" />`;
+                }
+
+                return `
+                <svg viewBox="0 0 500 500" class="w-full h-full overflow-visible" aria-hidden="true">
+                    <g class="mandala-ring-outer">
+                        <circle cx="250" cy="250" r="236" fill="none" stroke="${primaryStroke}" stroke-width="0.8" stroke-dasharray="3 5" />
+                        <circle cx="250" cy="250" r="175" fill="none" stroke="${primaryStroke}" stroke-width="1.2" />
+                        ${outerLayer}
+                    </g>
+                    <g class="mandala-ring-mid">
+                        <circle cx="250" cy="250" r="168" fill="none" stroke="${secondaryStroke}" stroke-width="0.9" stroke-dasharray="2 4" />
+                        <circle cx="250" cy="250" r="115" fill="none" stroke="${secondaryStroke}" stroke-width="1.3" />
+                        ${midLayer}
+                    </g>
+                    <g class="mandala-ring-inner">
+                        <circle cx="250" cy="250" r="78" fill="none" stroke="${accentStroke}" stroke-width="0.9" stroke-dasharray="4 4" />
+                        <circle cx="250" cy="250" r="42" fill="none" stroke="${primaryStroke}" stroke-width="1.5" />
+                        <circle cx="250" cy="250" r="16" fill="none" stroke="${accentStroke}" stroke-width="1.5" />
+                        <circle cx="250" cy="250" r="5" fill="${primaryStroke}" />
+                        ${innerLayer}
+                    </g>
+                </svg>`;
+            }
+
+            /* =====================================================================
+               2. HIGH-DETAIL ILLUSTRATED FALLBACK PORTRAITS (IF SANDBOX BLOCKS FILE PATH)
+               ===================================================================== */
+            function getIllustratedFallbackSVG(type) {
+                if (type === 'convocation') {
+                    // Accurate artistic representation of Jagriti 2.jpeg (Convocation Gown, NKPSIMS Batch 2K17 Sash, Degree Folder & Lavender Bouquet)
+                    return `
+                    <svg viewBox="0 0 400 500" class="w-full h-full object-cover" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="bgConv" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="0%" stop-color="#FFF1F2"/>
+                                <stop offset="50%" stop-color="#FEFCE8"/>
+                                <stop offset="100%" stop-color="#E0F2FE"/>
+                            </linearGradient>
+                        </defs>
+                        <rect width="400" height="500" fill="url(#bgConv)"/>
+                        <circle cx="200" cy="145" r="95" fill="#FDE68A" opacity="0.35"/>
+                        <!-- Hair -->
+                        <path d="M135 130 C125 200, 125 280, 140 340 L260 340 C275 280, 275 200, 265 130 C255 75, 145 75, 135 130 Z" fill="#1E293B"/>
+                        <!-- Crimson Attire & Black Convocation Robe -->
+                        <path d="M85 495 L115 245 Q200 265 285 245 L315 495 Z" fill="#BE123C"/>
+                        <path d="M75 495 L110 240 L162 250 L150 495 Z" fill="#0F172A"/>
+                        <path d="M325 495 L290 240 L238 250 L250 495 Z" fill="#0F172A"/>
+                        <!-- Navy & Gold Convocation Stoles (NKPSIMS Batch 2K17) -->
+                        <path d="M150 235 L176 235 L170 465 L155 480 L140 465 Z" fill="#1E1B4B" stroke="#F59E0B" stroke-width="3"/>
+                        <path d="M224 235 L250 235 L260 465 L245 480 L230 465 Z" fill="#1E1B4B" stroke="#F59E0B" stroke-width="3"/>
+                        <text x="155" y="375" fill="#FDE047" font-size="8" font-family="serif" font-weight="bold" text-anchor="middle">DR. JAGRITI</text>
+                        <text x="155" y="405" fill="#FDE047" font-size="8" font-family="serif" font-weight="bold" text-anchor="middle">2 K 1 7</text>
+                        <!-- Ribbon & Medal -->
+                        <path d="M175 230 L200 295 L225 230" fill="none" stroke="#EF4444" stroke-width="6"/>
+                        <circle cx="200" cy="302" r="10" fill="#F59E0B" stroke="#FEF08A" stroke-width="2"/>
+                        <!-- Neck & Smiling Face -->
+                        <rect x="184" y="195" width="32" height="38" rx="12" fill="#FCD34D"/>
+                        <ellipse cx="200" cy="148" rx="46" ry="54" fill="#FDE68A"/>
+                        <!-- Jhumka Earrings -->
+                        <circle cx="151" cy="168" r="6" fill="#D97706"/>
+                        <circle cx="249" cy="168" r="6" fill="#D97006"/>
+                        <!-- Eyes & Warm Smile -->
+                        <path d="M174 138 Q184 132 192 138" fill="none" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M208 138 Q216 132 226 138" fill="none" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M182 165 Q200 182 218 165 Z" fill="#FFFFFF" stroke="#E11D48" stroke-width="2.2"/>
+                        <!-- Convocation Degree Folder & Lavender Bouquet -->
+                        <rect x="172" y="290" width="68" height="86" rx="4" transform="rotate(6 206 333)" fill="#78716C" stroke="#44403C" stroke-width="2"/>
+                        <path d="M235 345 L285 265 L320 295 L260 365 Z" fill="#C084FC" stroke="#9333EA" stroke-width="2"/>
+                        <circle cx="295" cy="268" r="18" fill="#F8FAFC"/>
+                        <circle cx="312" cy="280" r="14" fill="#DCFCE7"/>
+                    </svg>`;
+                }
+
+                // Accurate artistic representation of Jagriti 1.jpeg (Royal Blue Clinical OT Scrubs, Bouffant Cap, Mask on Neck & AVBRH Badge)
+                return `
+                <svg viewBox="0 0 400 500" class="w-full h-full object-cover" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="bgScrubs" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#E0F2FE"/>
+                            <stop offset="55%" stop-color="#F8FAFC"/>
+                            <stop offset="100%" stop-color="#FCE7F3"/>
+                        </linearGradient>
+                    </defs>
+                    <rect width="400" height="500" fill="url(#bgScrubs)"/>
+                    <circle cx="200" cy="150" r="95" fill="#BAE6FD" opacity="0.45"/>
+                    <!-- Royal Blue V-Neck Clinical Scrubs -->
+                    <path d="M85 495 L105 245 Q200 235 295 245 L315 495 Z" fill="#0284C7"/>
+                    <path d="M168 238 L200 302 L232 238" fill="#FDE68A" stroke="#075985" stroke-width="4"/>
+                    <!-- AVBRH Pocket Badge -->
+                    <rect x="225" y="315" width="46" height="52" rx="4" fill="#0369A1" stroke="#075985" stroke-width="2"/>
+                    <rect x="235" y="328" width="26" height="16" rx="2" fill="#FEF08A"/>
+                    <text x="248" y="339" fill="#DC2626" font-size="6.5" font-family="sans-serif" font-weight="bold" text-anchor="middle">AVBRH</text>
+                    <!-- Neck & Surgical Mask Lowered Around Neck -->
+                    <rect x="184" y="198" width="32" height="42" rx="12" fill="#FCD34D"/>
+                    <path d="M166 212 Q200 236 234 212 L228 228 Q200 246 172 228 Z" fill="#38BDF8" stroke="#0284C7" stroke-width="2"/>
+                    <!-- Smiling Face -->
+                    <ellipse cx="200" cy="152" rx="45" ry="52" fill="#FDE68A"/>
+                    <!-- Blue Surgical Bouffant Cap -->
+                    <path d="M152 135 C148 88, 252 88, 248 135 Q200 120 152 135 Z" fill="#38BDF8" opacity="0.88" stroke="#0284C7" stroke-width="2"/>
+                    <!-- Eyes & Warm Smile -->
+                    <path d="M174 145 Q184 139 192 145" fill="none" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M208 145 Q216 139 226 145" fill="none" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M182 170 Q200 186 218 170 Z" fill="#FFFFFF" stroke="#E11D48" stroke-width="2.2"/>
+                </svg>`;
+            }
+
+            /* =====================================================================
+               3. AUTOMATIC SLIDING CAROUSEL WITH MULTI-PATH RESOLUTION & FALLBACK
+               ===================================================================== */
+            const carouselSlides = [
+                {
+                    id: 'photo-convocation',
+                    candidates: [
+                        'Jagriti 2_2.jpeg',
+                        'Jagriti%202_2.jpeg',
+                        'Jagriti 2.jpeg',
+                        'Jagriti%202.jpeg',
+                        './Jagriti 2_2.jpeg',
+                        './Jagriti 2.jpeg'
+                    ],
+                    customUrl: null,
+                    fallbackType: 'convocation',
+                    badge: 'M.B.B.S. Convocation • NKPSIMS',
+                    caption: 'Dr. Jagriti Bhagat',
+                    subCaption: 'M.B.B.S. Graduate (Batch 2K17) • Pursuing M.S. (Gynaecology)'
+                },
+                {
+                    id: 'photo-clinical',
+                    candidates: [
+                        'Jagriti 1_2.jpeg',
+                        'Jagriti%201_2.jpeg',
+                        'Jagriti 1.jpeg',
+                        'Jagriti%201.jpeg',
+                        './Jagriti 1_2.jpeg',
+                        './Jagriti 1.jpeg'
+                    ],
+                    customUrl: null,
+                    fallbackType: 'scrubs',
+                    badge: 'Obstetrics & Gynaecology Resident',
+                    caption: 'Dr. Jagriti Bhagat',
+                    subCaption: 'M.S. Resident Doctor at AVBRH / JNMC Sawangi Meghe, Wardha'
+                }
+            ];
+
+            let currentSlideIndex = 0;
+            let isCarouselPlaying = true;
+            let isHoverPaused = false;
+            let progressPercent = 0;
+            let carouselInterval = null;
+
+            function buildCarouselDOM() {
+                const viewport = document.getElementById('carouselViewport');
+                const dotsContainer = document.getElementById('carouselDots');
+                if (!viewport || !dotsContainer) return;
+
+                viewport.textContent = '';
+                dotsContainer.textContent = '';
+
+                carouselSlides.forEach((slide, idx) => {
+                    const slideEl = document.createElement('div');
+                    slideEl.dataset.slideIndex = String(idx);
+                    const isActive = idx === currentSlideIndex;
+                    slideEl.className = `absolute inset-0 transition-all duration-500 ease-out ${
+                        isActive ? 'opacity-100 scale-100 z-10' : 'opacity-0 scale-95 z-0 pointer-events-none'
+                    } flex flex-col justify-end rounded-2xl overflow-hidden bg-gradient-to-b from-rose-50 via-white to-sky-50`;
+
+                    // Illustrated Fallback Container (Shown behind or if image path fails in sandbox)
+                    const fallbackHolder = document.createElement('div');
+                    fallbackHolder.className = 'absolute inset-0 w-full h-full';
+                    fallbackHolder.innerHTML = getIllustratedFallbackSVG(slide.fallbackType);
+                    slideEl.appendChild(fallbackHolder);
+
+                    // Primary Image Element with Automatic Multi-Candidate Resolution
+                    const imgEl = document.createElement('img');
+                    imgEl.alt = `${slide.caption} - ${slide.badge}`;
+                    imgEl.className = 'absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-300';
+
+                    let candidateIdx = 0;
+                    const tryNextSource = () => {
+                        if (slide.customUrl) {
+                            imgEl.src = slide.customUrl;
+                            return;
+                        }
+                        if (candidateIdx < slide.candidates.length) {
+                            imgEl.src = slide.candidates[candidateIdx++];
+                        } else {
+                            // All relative file paths failed in the sandbox; hide broken image icon so fallback portrait shines cleanly
+                            imgEl.style.opacity = '0';
+                        }
+                    };
+
+                    imgEl.addEventListener('load', () => {
+                        imgEl.style.opacity = '1';
+                    });
+                    imgEl.addEventListener('error', () => {
+                        if (slide.customUrl) {
+                            slide.customUrl = null;
+                        }
+                        tryNextSource();
+                    });
+
+                    tryNextSource();
+                    slideEl.appendChild(imgEl);
+
+                    // Caption Overlay (Built with safe textContent to prevent XSS)
+                    const overlay = document.createElement('div');
+                    overlay.className = 'relative z-10 bg-gradient-to-t from-slate-950/90 via-slate-900/45 to-transparent p-5 pt-12 text-white';
+
+                    const badgeSpan = document.createElement('span');
+                    badgeSpan.className = 'inline-block px-2.5 py-0.5 rounded-full bg-rose-500/95 text-[10px] font-bold uppercase tracking-wider shadow-sm';
+                    badgeSpan.textContent = slide.badge;
+
+                    const titleH3 = document.createElement('h3');
+                    titleH3.className = 'mt-1.5 font-display font-bold text-xl leading-tight';
+                    titleH3.textContent = slide.caption;
+
+                    const subP = document.createElement('p');
+                    subP.className = 'text-[11px] text-slate-200 mt-0.5';
+                    subP.textContent = slide.subCaption;
+
+                    overlay.appendChild(badgeSpan);
+                    overlay.appendChild(titleH3);
+                    overlay.appendChild(subP);
+                    slideEl.appendChild(overlay);
+                    viewport.appendChild(slideEl);
+
+                    // Pagination Dot
+                    const dotBtn = document.createElement('button');
+                    dotBtn.type = 'button';
+                    dotBtn.setAttribute('aria-label', `Slide ${idx + 1}`);
+                    dotBtn.className = `h-2 rounded-full transition-all ${
+                        isActive ? 'w-7 bg-rose-500' : 'w-2 bg-slate-300 hover:bg-slate-400'
+                    }`;
+                    dotBtn.addEventListener('click', () => goToSlide(idx));
+                    dotsContainer.appendChild(dotBtn);
+                });
+            }
+
+            function updateActiveSlideClasses() {
+                const viewport = document.getElementById('carouselViewport');
+                const dotsContainer = document.getElementById('carouselDots');
+                if (!viewport || !dotsContainer) return;
+
+                Array.from(viewport.children).forEach((el, idx) => {
+                    const isActive = idx === currentSlideIndex;
+                    el.className = `absolute inset-0 transition-all duration-500 ease-out ${
+                        isActive ? 'opacity-100 scale-100 z-10' : 'opacity-0 scale-95 z-0 pointer-events-none'
+                    } flex flex-col justify-end rounded-2xl overflow-hidden bg-gradient-to-b from-rose-50 via-white to-sky-50`;
+                });
+
+                Array.from(dotsContainer.children).forEach((dot, idx) => {
+                    const isActive = idx === currentSlideIndex;
+                    dot.className = `h-2 rounded-full transition-all ${
+                        isActive ? 'w-7 bg-rose-500' : 'w-2 bg-slate-300 hover:bg-slate-400'
+                    }`;
+                });
+            }
+
+            function startCarouselLoop() {
+                if (carouselInterval) clearInterval(carouselInterval);
+                carouselInterval = setInterval(() => {
+                    if (!isCarouselPlaying || isHoverPaused) return;
+                    progressPercent += 2.5;
+                    const bar = document.getElementById('carouselProgressBar');
+                    if (bar) bar.style.width = `${Math.min(progressPercent, 100)}%`;
+
+                    if (progressPercent >= 100) {
+                        progressPercent = 0;
+                        currentSlideIndex = (currentSlideIndex + 1) % carouselSlides.length;
+                        updateActiveSlideClasses();
+                    }
+                }, 100);
+            }
+
+            function nextSlide() {
+                progressPercent = 0;
+                currentSlideIndex = (currentSlideIndex + 1) % carouselSlides.length;
+                updateActiveSlideClasses();
+            }
+
+            function prevSlide() {
+                progressPercent = 0;
+                currentSlideIndex = (currentSlideIndex - 1 + carouselSlides.length) % carouselSlides.length;
+                updateActiveSlideClasses();
+            }
+
+            function goToSlide(idx) {
+                if (idx < 0 || idx >= carouselSlides.length) return;
+                progressPercent = 0;
+                currentSlideIndex = idx;
+                updateActiveSlideClasses();
+            }
+
+            function toggleCarouselPlay() {
+                isCarouselPlaying = !isCarouselPlaying;
+                const icon = document.getElementById('carouselPlayIcon');
+                if (icon) {
+                    icon.className = isCarouselPlaying ? 'ph-fill ph-pause text-xs' : 'ph-fill ph-play text-xs';
+                }
+            }
+
+            /* Secure Local File Loader for Carousel Photos */
+            function handleLocalPhotoSelection(event) {
+                const files = Array.from(event.target.files || []);
+                const allowedTypes = ['image/jpeg', 'image/png', 'image/webp'];
+                const validFiles = files.filter(f => allowedTypes.includes(f.type) && f.size <= 15 * 1024 * 1024);
+
+                if (!validFiles.length) {
+                    showToast('Please select valid JPEG, PNG, or WebP portrait photos');
+                    return;
+                }
+
+                validFiles.forEach((file, index) => {
+                    const objectUrl = URL.createObjectURL(file);
+                    const lowerName = file.name.toLowerCase();
+                    if (lowerName.includes('2')) {
+                        carouselSlides[0].customUrl = objectUrl;
+                    } else if (lowerName.includes('1')) {
+                        carouselSlides[1].customUrl = objectUrl;
+                    } else {
+                        const targetSlot = index % carouselSlides.length;
+                        carouselSlides[targetSlot].customUrl = objectUrl;
+                    }
+                });
+
+                currentSlideIndex = 0;
+                progressPercent = 0;
+                buildCarouselDOM();
+                showToast('Portrait photos loaded into carousel');
+            }
+
+            /* =====================================================================
+               4. FAMILY LINEAGE FILTER, WHATSAPP SUMMARY & VCARD TOOLS
+               ===================================================================== */
+            function filterFamily(mode) {
+                const pat = document.getElementById('paternalColumn');
+                const mat = document.getElementById('maternalColumn');
+                const btnAll = document.getElementById('tabFamAll');
+                const btnPat = document.getElementById('tabFamPaternal');
+                const btnMat = document.getElementById('tabFamMaternal');
+
+                const activeCls = 'px-3.5 py-1.5 rounded-lg text-xs font-bold bg-white text-slate-900 shadow-sm transition-all';
+                const inactiveCls = 'px-3.5 py-1.5 rounded-lg text-xs font-bold text-slate-600 hover:text-slate-900 transition-all';
+
+                btnAll.className = mode === 'all' ? activeCls : inactiveCls;
+                btnPat.className = mode === 'paternal' ? activeCls : inactiveCls;
+                btnMat.className = mode === 'maternal' ? activeCls : inactiveCls;
+
+                if (mode === 'all') {
+                    pat.className = 'lg:col-span-7 flex flex-col';
+                    mat.className = 'lg:col-span-5 flex flex-col';
+                } else if (mode === 'paternal') {
+                    pat.className = 'lg:col-span-12 flex flex-col';
+                    mat.className = 'hidden';
+                } else {
+                    pat.className = 'hidden';
+                    mat.className = 'lg:col-span-12 flex flex-col';
+                }
+            }
+
+            function copyText(text, message) {
+                const ta = document.createElement('textarea');
+                ta.value = String(text);
+                ta.setAttribute('readonly', '');
+                ta.style.position = 'fixed';
+                ta.style.opacity = '0';
+                document.body.appendChild(ta);
+                ta.select();
+                try {
+                    document.execCommand('copy');
+                    showToast(message || 'Copied to clipboard');
+                } catch (err) {
+                    showToast('Copy action completed');
+                } finally {
+                    document.body.removeChild(ta);
+                }
+            }
+
+            function copyWhatsAppBio() {
+                const summary = [
+                    '*॥ श्री गणेशाय नमः ॥*',
+                    '*MATRIMONIAL BIODATA – DR. JAGRITI BHAGAT*',
+                    '*Gynaecologist (Pursuing M.S. in Obstetrics & Gynaecology)*',
+                    '',
+                    '• *DOB:* 11-02-1999 | *Birthplace:* Nagpur',
+                    '• *Religion & Caste:* Sanatan, Kalwar (Jaiswal)',
+                    '• *Zodiac:* Aquarius | *Height:* 5 ft 3 in | *Diet:* Pure Vegetarian',
+                    '',
+                    '*QUALIFICATIONS & EDUCATION:*',
+                    '• Pursuing M.S. (Obstetrics & Gynaecology) at JNMC Sawangi Meghe, Wardha',
+                    '• Completed M.B.B.S. from NKP Salve Medical College, Nagpur',
+                    '• XIIth: Hislop College, Nagpur | Xth: Centre Point School, Nagpur',
+                    '',
+                    '*MUSIC, LITERATURE & ARTS:*',
+                    '• Sangit Visharad (10+ yrs Indian Classical Music)',
+                    '• Plays Sitar, Tanpura, Harmonium, Keyboard & Ukulele',
+                    '• Published Writer (Poems & Newspaper Articles), Sketching & Mehendi Art',
+                    '',
+                    '*FAMILY LINEAGE:*',
+                    '• *Father:* Mr. J. K. Bhagat (Mechanical Engineer – Businessman)',
+                    '• *Mother:* Mrs. Preeti Bhagat (English HOD, Nagpur)',
+                    '• *Elder Brother:* Mr. Yash Bhakat – B.Tech (VIT-Mech), PGDBA (BITS Pilani), Ather Energy, Pune',
+                    '• *Address:* 155, Verma Layout, Nagpur',
+                    '• *Contact:* +91 9422805546 / +91 8788310188'
+                ].join('\n');
+
+                copyText(summary, 'Formatted WhatsApp Biodata copied to clipboard!');
+            }
+
+            function downloadVCard() {
+                const vcf = [
+                    'BEGIN:VCARD',
+                    'VERSION:3.0',
+                    'FN:Mr. J. K. Bhagat & Mrs. Preeti Bhagat (Parents of Dr. Jagriti Bhagat)',
+                    'TEL;TYPE=CELL:+919422805546',
+                    'TEL;TYPE=WORK:+918788310188',
+                    'ADR;TYPE=HOME:;;155, Verma Layout;Nagpur;Maharashtra;;India',
+                    'NOTE:Matrimonial Contact for Dr. Jagriti Bhagat (Gynaecologist - MBBS, Pursuing MS at JNMC Wardha)',
+                    'END:VCARD'
+                ].join('\r\n');
+
+                const blob = new Blob([vcf], { type: 'text/vcard;charset=utf-8' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'Dr_Jagriti_Bhagat_Family_Contact.vcf';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                showToast('Family Contact Card (.vcf) downloaded');
+            }
+
+            let toastTimer = null;
+            function showToast(msg) {
+                const box = document.getElementById('toastBox');
+                const txt = document.getElementById('toastText');
+                if (!box || !txt) return;
+                txt.textContent = String(msg);
+                box.classList.remove('translate-y-20', 'opacity-0');
+                if (toastTimer) clearTimeout(toastTimer);
+                toastTimer = setTimeout(() => {
+                    box.classList.add('translate-y-20', 'opacity-0');
+                }, 3200);
+            }
+
+            /* =====================================================================
+               5. INITIALIZE MANDALAS, CAROUSEL & SECURE EVENT LISTENERS
+               ===================================================================== */
+            window.addEventListener('DOMContentLoaded', () => {
+                const heroHalo = document.getElementById('heroMandalaHalo');
+                const topRight = document.getElementById('mandalaTopRight');
+                const bottomLeft = document.getElementById('mandalaBottomLeft');
+
+                if (heroHalo) heroHalo.innerHTML = createIntricateMandalaSVG('#E11D48', '#0284C7', '#D97706');
+                if (topRight) topRight.innerHTML = createIntricateMandalaSVG('#F43F5E', '#D97706', '#0284C7');
+                if (bottomLeft) bottomLeft.innerHTML = createIntricateMandalaSVG('#0284C7', '#E11D48', '#D97706');
+
+                buildCarouselDOM();
+                startCarouselLoop();
+
+                // Bind Event Listeners Cleanly
+                const hoverContainer = document.getElementById('carouselHoverContainer');
+                if (hoverContainer) {
+                    hoverContainer.addEventListener('mouseenter', () => { isHoverPaused = true; });
+                    hoverContainer.addEventListener('mouseleave', () => { isHoverPaused = false; });
+                }
+
+                const playBtn = document.getElementById('carouselPlayBtn');
+                const prevBtn = document.getElementById('carouselPrevBtn');
+                const nextBtn = document.getElementById('carouselNextBtn');
+                const photoInput = document.getElementById('localPhotoInput');
+
+                if (playBtn) playBtn.addEventListener('click', toggleCarouselPlay);
+                if (prevBtn) prevBtn.addEventListener('click', prevSlide);
+                if (nextBtn) nextBtn.addEventListener('click', nextSlide);
+                if (photoInput) photoInput.addEventListener('change', handleLocalPhotoSelection);
+
+                const tabAll = document.getElementById('tabFamAll');
+                const tabPat = document.getElementById('tabFamPaternal');
+                const tabMat = document.getElementById('tabFamMaternal');
+                if (tabAll) tabAll.addEventListener('click', () => filterFamily('all'));
+                if (tabPat) tabPat.addEventListener('click', () => filterFamily('paternal'));
+                if (tabMat) tabMat.addEventListener('click', () => filterFamily('maternal'));
+
+                const btnShareHeader = document.getElementById('btnShareBioHeader');
+                const btnShareFooter = document.getElementById('btnShareBioFooter');
+                const btnPrintHeader = document.getElementById('btnPrintHeader');
+                const btnVCard = document.getElementById('btnDownloadVCard');
+                const btnMotherPhone = document.getElementById('btnCopyMotherPhone');
+                const btnFatherPhone = document.getElementById('btnCopyFatherPhone');
+
+                if (btnShareHeader) btnShareHeader.addEventListener('click', copyWhatsAppBio);
+                if (btnShareFooter) btnShareFooter.addEventListener('click', copyWhatsAppBio);
+                if (btnPrintHeader) btnPrintHeader.addEventListener('click', () => window.print());
+                if (btnVCard) btnVCard.addEventListener('click', downloadVCard);
+                if (btnMotherPhone) btnMotherPhone.addEventListener('click', () => copyText('+91 9422805546', "Mother's contact number copied"));
+                if (btnFatherPhone) btnFatherPhone.addEventListener('click', () => copyText('+91 8788310188', "Father's contact number copied"));
+            });
+        })();
+    </script>
+</body>
+</html>
